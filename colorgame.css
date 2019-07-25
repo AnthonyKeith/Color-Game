@@ -1,0 +1,43 @@
+body {
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 6fr;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+#header {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    background-color: transparent;
+}
+
+#banner {
+    background-color: white;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 30px auto 15px auto;
+    grid-gap: 15px;
+}
+
+
+.square {
+    background: white;
+    min-height: 120px;
+    min-width: 120px;
+    border-radius: 15px;
+}
