@@ -3,6 +3,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 1fr 6fr;
+    margin: 0;
+    padding: 0;
 }
 
 #main {
@@ -23,7 +25,11 @@ h1 {
 }
 
 #banner {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
     background-color: white;
+    height: 30px;
+    text-align: center;
 }
 
 #container {
