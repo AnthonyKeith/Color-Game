@@ -102,6 +102,7 @@ newColorsButton.addEventListener("click", function(){
     for(var i = 0; i < squares.length; i++){
         squares[i].style.backgroundColor = colors[i];
     }
-    header.style.backgroundColor = "#232323";
+    header.style.backgroundColor = "rgb(115, 255, 0)";
     newColorsButton.textContent = "New Colors?"
+    messageDisplay.textContent = " ";
 })
